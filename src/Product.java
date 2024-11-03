@@ -1,10 +1,10 @@
-public class products {
+public class Product {
     private String name;
     private double price;
     private int quantity;
     private boolean isExpirable;
     private boolean requiresShipping;
-    public products(String name, double price, int quantity,boolean isExpirable,boolean requiresShipping) {
+    public Product(String name, double price, int quantity, boolean isExpirable, boolean requiresShipping) {
         this.name = name;
         this.price = price;
         this.quantity = quantity;
