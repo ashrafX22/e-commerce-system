@@ -35,4 +35,9 @@ public class Cart {
             System.out.println(e.getMessage());
         }
     }
+
+
+    public void remove(Product item){
+       this.items.remove(item);
+    }
 }
