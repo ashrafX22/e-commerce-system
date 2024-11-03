@@ -7,7 +7,10 @@ public class Product {
     private double weight;
     private boolean isExpirable;
     private boolean requiresShipping;
-    public Product(String name, double price, int quantity, double weight,boolean isExpirable, boolean requiresShipping) {
+
+
+
+    public Product(String name, double price, int quantity, double weight, boolean isExpirable, boolean requiresShipping) {
         this.name = name;
         this.price = price;
         this.quantity = quantity;
@@ -28,6 +31,7 @@ public class Product {
         return quantity;
     }
 
+
 //    public void setName(String name) {
 //        this.name = name;
 //    }
@@ -38,5 +42,12 @@ public class Product {
 
     public void setQuantity(int quantity) {
         this.quantity = quantity;
+    }
+    public double getWeight() {
+        return weight;
+    }
+
+    public void setWeight(double weight) {
+        this.weight = weight;
     }
 }
