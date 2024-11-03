@@ -1,3 +1,7 @@
+package models;
+
+import models.Product;
+
 public class Customer {
     private String name;
     private double balance;
