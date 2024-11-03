@@ -32,13 +32,6 @@ public class Product {
     }
 
 
-//    public void setName(String name) {
-//        this.name = name;
-//    }
-//
-//    public void setPrice(double price) {
-//        this.price = price;
-//    }
 
     public void setQuantity(int quantity) {
         this.quantity = quantity;
@@ -46,8 +39,12 @@ public class Product {
     public double getWeight() {
         return weight;
     }
-
-    public void setWeight(double weight) {
-        this.weight = weight;
+    public boolean isExpirable() {
+        return isExpirable;
     }
+    public boolean requiresShipping() {
+        return requiresShipping;
+    }
+
+
 }
