@@ -108,8 +108,8 @@ public class Order {
             System.out.println("Total: " + getTotal());
             System.out.println("Total Weight: " + getTotalWeight() + "kg");
             System.out.println("Your Cuurent Balance is : " + this.customer.getBalance());
-            System.out.println("Thanks For Trusting Us," + this.customer.getName() + " ❤");
             System.out.println("--------------------------------------");
+            System.out.println("Thanks for trusting us," + this.customer.getName() + " ❤");
         } catch (CartEmptyException e) {
             System.out.println(e.getMessage());
         }
